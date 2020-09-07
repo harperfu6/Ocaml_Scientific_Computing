@@ -1,8 +1,11 @@
-#require "owl";;
+#use "topfind"
+#require "owl"
+
 open Owl
 open Neural.S
 open Neural.S.Graph
 open Neural.S.Algodiff
+
 let make_network input_shape =
   input input_shape
   |> lambda (fun x -> Maths.(x / F 256.))
