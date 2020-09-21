@@ -15,3 +15,4 @@ let x' = make_reverse x (tag ());;
 let y = f x';;
 let _ = reverse_prop (F 1.) y;;
 let y' = adjval x';;
+Mat.print (y');;
