@@ -1,3 +1,5 @@
 *.cmo
 *.cma
 *.native
+
+.ipynb_checkpoints
